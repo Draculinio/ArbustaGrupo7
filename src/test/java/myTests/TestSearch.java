@@ -36,7 +36,7 @@ public class TestSearch {
 	public void searchDresses() {
 		pIndex.search("DRESSES");
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -48,7 +48,7 @@ public class TestSearch {
 	public void searchTSHIRTS() {
 		pIndex.search("T-SHIRTS");
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -60,7 +60,7 @@ public class TestSearch {
 	public void searchNoResult() {
 		pIndex.search("hello world");
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
