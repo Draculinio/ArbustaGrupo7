@@ -3,6 +3,15 @@
 <suite name="Failed suite [Command line suite]" verbose="0">
   <test thread-count="5" name="Command line test(failed)" verbose="0">
     <classes>
+      <class name="myTests.TestSearch">
+        <methods>
+          <include name="searchTSHIRTS"/>
+          <include name="tearDown"/>
+          <include name="beforeAll"/>
+          <include name="afterAll"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- myTests.TestSearch -->
       <class name="myTests.TestAsserts">
         <methods>
           <include name="softAsserts"/>
